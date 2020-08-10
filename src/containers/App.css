@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'GtekTechnology-B9aB';
+    src: URL('./GtekTechnology-B9aB.ttf') format('truetype');
+  }
+
+h1
+{
+    font-family:'GtekTechnology-B9aB';
+    color: #0acca4; 
+}
+@media only screen and (max-width: 520px) 
+{
+    h1{
+        font-size: 31px !important;
+    }
+}
